@@ -6,7 +6,7 @@ public class Matrix implements MatrixOperations {
     private final int[][] matrix;
     private final int rows;
     private final int cols;
-    private int[] columnSums;
+    private final int[] columnSums;
     private final Scanner scanner;
 
     public Matrix(int rows, int cols, Scanner scanner) {
